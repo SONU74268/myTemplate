@@ -4,7 +4,7 @@
 		"target": "ES2022",
 		"checkJs": true,  /* Typecheck .js files. */
 		"lib": [
-			"ES2022"
+			"es6", "dom", "ES2022"
 		]
 	},
 	"exclude": [
