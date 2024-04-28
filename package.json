@@ -10,12 +10,17 @@
     "Other"
   ],
   "activationEvents": [],
-  "main": "./extension.js",
+  "main": "src/extension.js",
   "contributes": {
     "commands": [{
       "command": "mytemplate",
       "title": "MyTemplate"
-    }]
+    },
+    {
+      "command": "usemytemplate",
+      "title": "UseMyTemplate"
+    }
+  ]
   },
   "scripts": {
     "lint": "eslint .",
